@@ -1,57 +1,66 @@
-# 🚀 Getting started with Strapi
+# Tseppas
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+## Description
 
-### `develop`
+E-commerce for oriental desserts
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+## Features
 
-```
-npm run develop
+1. Add items to the cart with quantity.
+2. View cart summary from the header and remove items.
+3. Change quantity or remove items from the cart page.
+4. Checkout page with payment method.
+5. Make an order with client information.
+6. User-friendly interface.
+7. Dark-Light mode for interface customization.
+
+## Technologies and Tools
+
+1. Next.js: React framework for building server-side rendered React applications.
+2. Shadcn: (Please provide a brief description of Shadcn and its purpose.)
+3. Tailwind CSS: A utility-first CSS framework for quickly building custom designs.
+4. Axios: Handle APIs and requests.
+5. Clerk: Authentication library.
+6. Stripe: Payment gateway for processing online payments.
+7. Strapi: Back-end management system for managing the backend of the application.
+
+# Demo
+
+[Demo Link](https://tseppas-front-end.vercel.app)
+
+# Front-end Repository
+
+[Front-end Repository Link](https://github.com/H0ssamAhmed/Tseppas-Front-end)
+
+
+# Installation
+
+1. Clone the front-end repository:
+
+   ```bash
+   git clone https://github.com/H0ssamAhmed/Tseppas-Front-end.git
+   ```
+
+#
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
 # or
-yarn develop
-```
-
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
-
-```
-npm run start
+yarn dev
 # or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
+pnpm dev
 # or
-yarn build
+bun dev
 ```
 
-## ⚙️ Deployment
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
